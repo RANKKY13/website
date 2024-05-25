@@ -128,9 +128,35 @@ p{
 }
 .Course-col{
     flex-basis: 31%;
-    background: burlywood;
+    background: rgb(235, 232, 229);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: 0.5s;
+}
+/*-----------------Day 06 Start Here)-------------------*/
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.Course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/*--------------------Campus Section-----------------------*/
+.Campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+.Campus-col{
+    flex-basis: 50%;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
 }
