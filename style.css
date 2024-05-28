@@ -222,6 +222,7 @@ h3{
     padding-top: 5%;
     text-align: center;
 }
+
 .attestations-col{
     flex-basis: 44%;
     border-radius: 10px;
@@ -232,7 +233,12 @@ h3{
     cursor: pointer;
     display: flex;
 }
-/*--------------DAY 08-------------------*/
+.bi-star-fill{
+    color: #f8d821;
+}
+.bi-star-half {
+    color: #f8d821;
+}
 .attestations-col img{
     height: 30px;
     margin-left: 5px;
@@ -246,4 +252,41 @@ h3{
     margin-bottom: 5px;
     text-align: left;
 }   
+/*--------------DAY 08-------------------*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/banner2.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/*--------------FOOTER-------------------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer:h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .bi{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.bi bi-heart-fill{
+    color: #f44336;
+
 }
